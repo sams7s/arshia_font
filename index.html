@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mehrab PNG Studio V2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <div class="container">
+        <header>
+            <h1>استودیو فونت ارشیا</h1>
+            
+<input id="textInput" type="text" placeholder="متن را وارد کنید..." value="" />
+
+            
+        </header>
+
+        <section class="controls">
+            
+            
+            <div class="btn-group">
+                <button id="btnWhiteText" class="color-btn white">متن سفید</button>
+                <button id="btnBlackText" class="color-btn black">متن سیاه</button>
+            </div>
+
+            <div class="export-options">
+                <label class="toggle-container">
+                    <input type="checkbox" id="transparentCheck" checked>
+                    <span class="slider"></span>
+                    <span class="label-text">خروجی شفاف</span>
+                </label>
+                <button id="downloadAllBtn" class="download-btn">ذخیره PNG</button>
+            </div>
+        </section>
+
+        <div id="fontGrid" class="font-grid">
+            <!-- فونت‌ها اینجا رندر می‌شوند -->
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
